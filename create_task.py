@@ -6,16 +6,3 @@
 # until all entries are 0.
 
 # And more importantly, The (n+1)th call must start after nth call has started.
-# Therefore, cannot use asyncio.gather() this way
-
-
-
-
-
-
-##
-# A -> 4s, B -> 4s, total -> 4.0118 s
-# A -> 10s, B -> 14s, total -> 14.0162 s
-# B -> 12s, A -> 21s, total -> 21.0092 s
-
-# executing a lot of sleep-tasks together -> 21.0124 s
