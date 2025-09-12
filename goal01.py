@@ -5,7 +5,6 @@ Predefined array containing 0s and 1s that quantity is not fixed.
 Search the first one in array -> make an api call -> replace 1 with 0 -> loop
 until all entries are 0.'''
 
-And more importantly, The (n+1)th call must start after nth call has started.```
 
 import asyncio
 import random
